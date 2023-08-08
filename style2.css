@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:monospace,sans-serif;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 1px hsl(90, 100%, 50%);
+    box-shadow: 5px 5px 5px chartreuse;
+    padding:5px;
+    transition: all 0.5s;
+}
+
+button{
+    margin-top: 20px;
+    font-family: monospace ,sans-serif;
+    border: solid 1px chartreuse;
+    box-shadow: 5px 5px 5px chartreuse;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+a{
+    color:chartreuse;
+    text-decoration: none;
+    transition: all 0.5s;
+    animation: reverse 0.5s;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+    animation: reverse 0.5s;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+
+input:hover{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 1px green;
+    box-shadow: 5px 5px 5px green;
+    padding:5px;
+}
+
+button:hover{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 1px green;
+    box-shadow: 5px 5px 5px green;
+    padding:5px;
+}
+
+input::placeholder{
+    font-family: monospace,sans-serif;
+}
+
+
+/* a que no te sabes esta */
+
+#green-black{
+    color: #00802D;
+    transition: all 0.3s;
+}
+
+#esmerald-green{
+    color:#017A8F;
+    transition: all 0.3s;
+}
+
+#metal-green{
+    color: #63A88B;
+    transition: all 0.3s;
+}
+
+#fluorescent-green{
+    color: #22C16D;
+    transition: all 0.3s;
+}
+
+#apple-green{
+    color: #6ED001;
+    transition: all 0.3s;
+}
+
+#white-green{
+    color: #67cb57;
+    transition: all 0.3s;
+}
+
+/* a q no te sabes esta pero en hover */
+
+
+#green-black:hover{
+    color: #67cb57;
+    
+}
+
+#esmerald-green:hover{
+    color:#6ed001;
+    
+}
+
+#metal-green:hover{
+    color:#67CB57 ;
+    
+}
+
+#fluorescent-green:hover{
+    color:#67CB57 ;
+    
+}
+
+#apple-green:hover{
+    color:#67CB57;
+    
+}
+
+#white-green:hover{
+    color:#67CB57;
+
+}
